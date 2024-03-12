@@ -1,0 +1,82 @@
+body{
+    height: 100%;
+    width: 100%;
+    /*background-image: url(https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZG9sbGFyfGVufDB8fDB8fHww);
+    background-size: auto;*/
+    background-color: rgb(0, 181, 253);
+    size-adjust: auto;
+}
+#Inputs {
+    position: relative; /* Set the outer div to relative position */
+    border: 3px solid red; /* For visualization purposes */
+    padding: 20px;
+    background-color: rgb(119, 209, 242);
+    margin: 20px;
+    size-adjust: auto;
+}
+/*Date and Time styling*/
+#DateTime{
+    background-color: rgb(200, 234, 217);
+    height: 90px;
+    width: 200px;
+    padding:5px;
+    margin: 50px;
+    border: 2px solid red;
+    position: absolute; /* Set the inner div to absolute position */
+    top: 0;
+    right: 0;
+    size-adjust: auto;
+}
+
+/*Heading Styling*/
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+    color:red;
+}
+ul{
+    list-style-type: none;
+    font-size: larger;
+}
+/*ALL buttons Styling*/
+.btn{
+    padding: 5px;
+    border-radius: 20%;
+    border-width: 3px;
+    border-color: red;
+    background-color: rgb(58, 201, 201);
+    margin-left: 10px;
+}
+
+/* ADD BUTTON */
+
+.liit{
+    margin: 12px;
+    color: rgb(255, 0, 0);
+}
+.ipitem{
+    padding: 5px;
+}
+
+
+
+
+
+
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: red;
+  }
+table {
+    width: 90%;
+    border-collapse: collapse;
+  }
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 2px solid red;
+  }
