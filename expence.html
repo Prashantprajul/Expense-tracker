@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Forms for taking Inputs-->
+<div id="Inputs">
+    <h1>EXPENCE TRACKER</h1>
+<form id="form">
+<ul>
+    <li class="liit">
+        <label for="amount"><b>Enter Amount:</b>
+        <input type="text" class="ipitem" id="amount">
+    </label>
+    </li>
+    <li class="liit">
+        <label for="descript"><b>Description:</b>
+        <input type="text" class="ipitem" id="descript">
+        </label>
+    </li>
+    <li class="liit">
+        <label for="catogery"><b>Catogery:</b>
+        <select name="catogery" class="ipitem" id="catogery">
+            <option class="opt" value="Bill">Bills</option>
+            <option class="opt" value="Loan">Loan</option>
+            <option class="opt" value="Outing">Outing</option>
+            <option class="opt" value="Food">Food</option>
+            <option class="opt" value="Outfit">Outfit</option>
+            <option class="opt" value="Study">Study</option>
+        </select>
+        </label>
+    </li>
+</ul>
+<button type="submit" id="btn1" class="btn"><b>ADD</b></button>
+</form>
+
+<!--DATE AND TIME-->
+<div style="color:orangered" id="DateTime">
+  <p><big><b>Today's Date:</b></big><span id="date" class="dateClass"></span></p>
+  <p><big><b>Time:</b></big><span id="time" class="timeClass"></span></p>
+</div>
+<!--Ends here-->
+
+</div>
+
+
+<!--2nd Portion-->
+<div id="print">
+<table id="table">
+    <caption><big>Total Expences</big></caption>
+      <thead>
+        <tr>
+          <th>Amount</th>
+          <th>Description</th>
+          <th>Catogery</th>
+          <th>Date</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+
+      </tbody>
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+    <script src="expence.js"></script>
+    </body>
+</html>
+
+
